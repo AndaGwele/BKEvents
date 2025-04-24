@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BK Events - Event Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="logo">BK EVENTS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Professional Event Services</h1>
+            <p>Making your special occasions memorable</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-header">
+            <h2>OUR <span>SERVICES</span></h2>
+        </div>
+        <div class="services-container">
+            <div class="service-item">
+                <div class="service-img" id="stretch-tent">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Stretch Tent</h3>
+                <p>Elegant and flexible tenting solutions for any outdoor event.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-img" id="frame-tent">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Frame Tent</h3>
+                <p>Sturdy and spacious tents perfect for larger gatherings.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-img" id="decorations">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Decorations</h3>
+                <p>Beautiful table settings and event decorations to match your theme.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-img" id="sound-system">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Sound System</h3>
+                <p>Professional audio equipment for speeches, music, and entertainment.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-img" id="jumping-castle">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Jumping Castle</h3>
+                <p>Fun inflatable play equipment for children's entertainment.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-img" id="waterproof">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Waterproof Stretch</h3>
+                <p>Weather-resistant tent options for peace of mind in any conditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-header">
+            <h2>ABOUT <span>US</span></h2>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bk.jpg-bFnsBlywzbh6sO5enJP2iJ2h6kZ4Fo.jpeg" alt="BK Events Services">
+            </div>
+            <div class="about-content">
+                <h3>Your Event Partner</h3>
+                <p>BK Events specializes in providing comprehensive event services for all occasions. From weddings and corporate events to birthday parties and community gatherings, we have the equipment and expertise to make your event a success.</p>
+                <p>Our professional team ensures that every detail is taken care of, allowing you to focus on enjoying your special day.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="section-header">
+            <h2>OUR <span>GALLERY</span></h2>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item" id="gallery1"></div>
+            <div class="gallery-item" id="gallery2"></div>
+            <div class="gallery-item" id="gallery3"></div>
+            <div class="gallery-item" id="gallery4"></div>
+            <div class="gallery-item" id="gallery5"></div>
+            <div class="gallery-item" id="gallery6"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header">
+            <h2>CONTACT <span>US</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>073 678 9815 / 069 4497 709</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@bkevents.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>South Africa</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="eventForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="stretch-tent">Stretch Tent</option>
+                            <option value="frame-tent">Frame Tent</option>
+                            <option value="decorations">Decorations</option>
+                            <option value="sound-system">Sound System</option>
+                            <option value="jumping-castle">Jumping Castle</option>
+                            <option value="waterproof">Waterproof Stretch</option>
+                            <option value="package">Complete Package</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>BK EVENTS</h2>
+                <p>Making your special occasions memorable</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> 073 678 9815 / 069 4497 709</p>
+                <p><i class="fas fa-envelope"></i> info@bkevents.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 BK Events. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
